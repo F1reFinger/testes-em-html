@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.banner {
+    background-color: darkgreen;
+    background-image: url('https://media1.tenor.com/images/2206ae5cdce4f385b282aed6f9415932/tenor.gif?itemid=18434296');
+    background-repeat: repeat;
+    background-position: 0% 0%;
+    width: 50%;
+    height: 100%;
+}
+
+.main {
+    width: 50%;
+    height: 100%;
+    background-image: url('https://external-preview.redd.it/cg8k976AV52mDvDb5jDVJABPrSZ3tpi1aXhPjgcDTbw.png?auto=webp&s=1c205ba303c1fa0370b813ea83b9e1bddb7215eb');
+    background-position: 40% 0%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px;
+}
+
+.main h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.main h2 {
+    margin-bottom: 18;
+}
+
+.buttons {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons button {
+    margin-bottom: 16px;
+    padding: 10px 0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: opacity .2s;
+}
+
+.buttons button:nth-child(1) {
+    color: pink;
+    background-color: purple;
+}
+
+.buttons button:nth-child(2) {
+    background-color: darkolivegreen;
+    color: yellowgreen;
+    border-color: indigo;
+}
+
+.buttons button:hover {
+    opacity: 0.9;
+}
